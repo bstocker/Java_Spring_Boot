@@ -10,4 +10,9 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
+    @RequestMapping("/")
+    String helloWorld() {
+        return "5. please visit my website learning-ocean.com";
+    }
+	
 }
